@@ -1,13 +1,15 @@
-=== Free Woocommerce Products Slider/Carousel Pro ===
-Contributors: sajjad67
+=== Free WooCommerce Products Slider/Carousel Pro ===
 Tags: product carousel, responsive product slider, slick slider, advanced slider, woo product carousel
+Contributors: sajjad67
+Author: Sajjad Hossain Sagor
+Tested up to: 6.8
 Requires at least: 5.6
-Tested up to: 6.6
-Stable tag: 1.1.4
+Stable tag: 2.0.0
+Requires PHP: 8.0
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Display Woocommerce Products in a Carousel / Slider. Show Top Rated, Best Selling, ON Sale, Featured, Recently Viewed Products With Category Filter.
+Display WooCommerce Products in a Carousel / Slider. Show Top Rated, Best Selling, ON Sale, Featured, Recently Viewed Products With Category Filter.
 
 == Description ==
 WooCommerce Product Carousel / Slider Pro comes with all Pro Features and is one of the best product slider to put your WooCommerce Products listing in a carousal. Choose products from Top Rated Category, Best Selling Category, ON Sale Category, Featured Category Products With Custom Category Filter enabled. You can easily display this product slider anywhere using shortcode.
@@ -20,7 +22,7 @@ This plugin using the original loop form of WooCommerce that means it will displ
 
 Also work with Gutenberg shortcode block.
 
-= This plugin contain 6 shortcodes: =
+= This plugin contain 6 shortcodes =
 1) Display any WooCommerce **products** filtered by category / tag / sku / attribute in carousel view
 
 <code>[woopspro_products_slider] OR [woopspro_products_slider cats="CATEGORY-ID" tags="TAG-ID" skus="SKU-VALUE" attribute_color="blue,green,red" attribute_size="medium,big"]</code>
@@ -48,32 +50,34 @@ Also work with Gutenberg shortcode block.
 = Ordering Products in your slider: =
 Plugin shortcodes also has ordering arguments. <code>[woopspro_products_slider order='ASC' orderby='ID']</code> <code>[woopspro_products_slider order='ASC' orderby='meta_value_num' meta_key='your_custom_key']</code>
 
-= Powerfull Pro Features: =
+= Powerful Pro Features =
 
-* Shortcode Generator ( No Need to Code )
-* Best Selling products slider
-* Featured products slider
-* ON Sale products slider
-* Top Rated products slider
-* Display Latest/Recent Products Slider
-* Display Recently Viewed Products
-* Sort by Category 
-* Sort by Tag 
-* Sort by Sku 
-* Sort by Attributes 
-* Order By Your Own Custom Value
-* 100% Mobile & Tablet Responsive
-* Awesome Touch-Swipe Enabled
-* Translation Ready
-* Work with any WordPress Theme
-* Created with Slick Slider
-* Lightweight, Fast & Powerful
-* Set Number of Columns you want to show
-* Slider AutoPlay on/off
-* Navigation show/hide options
-* Pagination show/hide options
-* Unlimited slider anywhere
-* Filter to limit slide number for each device (Mobile/Tablet/iPad/Laptop/Desktop)
+* Easy Shortcode Generator – No coding required
+* Product Sliders for All Types:
+    * Best Selling Products
+    * Featured Products
+    * On Sale Products
+    * Top Rated Products
+    * Latest / Recent Products
+    * Recently Viewed Products
+* Advanced Sorting Options:
+    * By Category
+    * By Tag
+    * By SKU
+    * By Attributes
+    * Custom Order (define your own order)
+* 100% Mobile, Tablet & Desktop Responsive
+* Smooth Touch & Swipe Enabled Experience
+* Translation Ready – Works with multilingual plugins
+* Compatible with Any WordPress Theme
+* Powered by Slick Slider – Lightweight and efficient
+* Fully Customizable Display:
+    * Choose the number of columns to show
+    * Enable or disable autoplay
+    * Show or hide navigation arrows
+    * Show or hide pagination dots
+    * Unlimited sliders anywhere using shortcodes, widgets, or block widgets
+    * Device-specific slide limits (Mobile, Tablet, iPad, Laptop, Desktop)
 
 = You can use Following parameters with shortcode =
 * **Display Product by category:** 
@@ -113,9 +117,6 @@ speed="3000" (Control the speed of the slider)
 * **slider_cls:**
 slider_cls="products" (This parameter target the wooCommerce default class for product looping. If your slider is not working please check your theme product looping class and add that class in this parameter)
 
-Interested in contributing to Drag & Drop Menu Items?
-Contact me at sagorh672(at)gmail.com
-
 == Installation ==
 1. Upload the 'woo-products-slider-pro' folder to the '/wp-content/plugins/' directory.
 2. Activate the "woo-products-slider-pro" list plugin through the 'Plugins' menu in WordPress.
@@ -131,7 +132,7 @@ File under templates-->loop--> loop-start.php
 There are simple solution with shortcode parameter
 
 * **slider_cls:**
-slider_cls="products" (This parameter target the wooCommerce default class for product looping. If your slider is not working please check your theme product looping class and add that class in this parameter)
+slider_cls="products" (This parameter target the WooCommerce default class for product looping. If your slider is not working please check your theme product looping class and add that class in this parameter)
 
 == Screenshots ==
 
@@ -142,7 +143,10 @@ slider_cls="products" (This parameter target the wooCommerce default class for p
 5. WooCommerce ON Sale Products in carousel view
 6. WooCommerce Top Rated Products in carousel view
 7. WooCommerce Most Recent Products in carousel view
+
 == Changelog ==
+= 2.0.0 =
+* Checked for latest wp version 6.8
 = 1.1.4 =
 * Minor Update.. tested for latest wp compatibility..
 = 1.1.3 =
