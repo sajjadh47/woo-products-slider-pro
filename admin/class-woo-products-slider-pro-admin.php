@@ -112,7 +112,7 @@ class Woo_Products_Slider_Pro_Admin {
 			'manage_options',
 			'woo-products-slider-pro',
 			array( $this, 'menu_page' ),
-			'dashicons-archive'
+			'dashicons-slides'
 		);
 	}
 
