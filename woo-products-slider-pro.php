@@ -14,7 +14,7 @@
  * Plugin URI:        https://wordpress.org/plugins/woo-products-slider-pro/
  * Description:       Display WooCommerce Products in a Carousel. Show Top Rated, Best Selling, ON Sale, Featured, Recently Viewed Products With Category Filter.
  * Version:           2.0.0
- * Requires at least: 6.5
+ * Requires at least: 5.6
  * Requires PHP:      8.0
  * Author:            Sajjad Hossain Sagor
  * Author URI:        https://sajjadhsagor.com/
