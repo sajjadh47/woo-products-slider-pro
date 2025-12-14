@@ -1,6 +1,6 @@
 # Free Woocommerce Products Slider/Carousel Pro
 
-[![Plugin Banner](https://ps.w.org/woo-products-slider-pro/assets/banner-772x250.png)](https://wordpress.org/plugins/woo-products-slider-pro/)
+[![Plugin Banner](https://ps.w.org/woo-products-slider-pro/assets/banner-1544x500.png)](https://wordpress.org/plugins/woo-products-slider-pro/)
 
 **Tags:** product carousel, responsive product slider, slick slider, advanced slider, woo product carousel \
 **Tested up to:** 6.8 \
