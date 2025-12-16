@@ -34,7 +34,7 @@
 
 .woopspro-product-slider ul.products li.product.first {
 	clear: none !important;
-	float: left !important
+	float: left !important;
 }
 
 .woopspro-product-slider button.slick-arrow {
@@ -54,13 +54,13 @@
 .woopspro-product-slider button.slick-next, .woopspro-product-slider button.slick-next:hover, .woopspro-product-slider button.slick-next:focus {
 	background: #555 url(arrow-right.png) center center no-repeat !important;
 	background-size: 15px 26px !important;
-	outline: none !important
+	outline: none !important;
 }
 
 .woopspro-product-slider button.slick-prev, .woopspro-product-slider button.slick-prev:hover, .woopspro-product-slider button.slick-prev:focus {
 	background: #555 url(arrow-left.png) center center no-repeat !important;
 	background-size: 15px 26px !important;
-	outline: none !important
+	outline: none !important;
 }
 
 .woopspro-product-slider .slick-dots {
@@ -96,7 +96,7 @@
 }
 
 .woopspro-product-slider .slick-dots li button:focus {
-	outline: none !important
+	outline: none !important;
 }
 
 .woopspro-product-slider .slick-dots li.slick-active button {

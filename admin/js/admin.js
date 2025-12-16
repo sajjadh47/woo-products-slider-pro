@@ -130,14 +130,7 @@ jQuery( document ).ready( function( $ )
 		tags += "'";
 		skus += "'";
 
-		if ( $( this ).closest( 'form' ).data( 'shortcode' ) == 'woopspro_recently_viewed_products' )
-		{
-			shortcode = $.trim( shortcode ) + "]";
-		}
-		else
-		{
-			shortcode = $.trim( shortcode ) + ids.replace( ",'", "'" ) + cats.replace( ",'", "'" ) + tags.replace( ",'", "'" ) + skus.replace( ",'", "'" ) + attribute_filter + "]";
-		}
+		shortcode = $.trim( shortcode ) + ids.replace( ",'", "'" ) + cats.replace( ",'", "'" ) + tags.replace( ",'", "'" ) + skus.replace( ",'", "'" ) + attribute_filter + "]";
 
 		if ( ids == " ids=''" )
 		{

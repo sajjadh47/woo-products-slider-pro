@@ -65,7 +65,7 @@ jQuery( document ).ready( function( $ )
 					{
 						slidesToShow: parseInt( slider_conf.slide_to_show_for_mobile ) ? parseInt( slider_conf.slide_to_show_for_mobile ) : 1,
 						slidesToScroll: parseInt( slider_conf.slide_to_scroll_for_mobile ) ? parseInt( slider_conf.slide_to_scroll_for_mobile ) : 1,
-					}           
+					}
 				}
 			]
 		} );

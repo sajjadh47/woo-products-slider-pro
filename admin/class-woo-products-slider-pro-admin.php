@@ -375,7 +375,7 @@ class Woo_Products_Slider_Pro_Admin {
 	public static function get_woo_stock_status_options() {
 		// Get all registered WooCommerce product stock status options.
 		$all_statuses = wc_get_product_stock_status_options();
-		$html         = '';
+		$html         = "<option value=''>" . esc_html__( 'Any Status', 'woo-products-slider-pro' ) . '</option>';
 
 		// Loop through each status and create an <option> tag.
 		foreach ( $all_statuses as $status_name => $status_label ) {

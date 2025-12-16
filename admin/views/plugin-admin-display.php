@@ -22,7 +22,7 @@ $woo_attributes_options       = Woo_Products_Slider_Pro_Admin::get_woo_attribute
 
 ?>
 <div class="wrap">
-	<h2><?php esc_html_e( 'Woocommerce Products Slider Shortcodes', 'woo-products-slider-pro' ); ?></h2>
+	<h2><?php esc_html_e( 'WooCommerce Products Slider Shortcodes', 'woo-products-slider-pro' ); ?></h2>
 	<div id="poststuff">
 		<div id="post-body" class="metabox-holder columns-2">
 			<!-- main content -->
@@ -94,17 +94,22 @@ $woo_attributes_options       = Woo_Products_Slider_Pro_Admin::get_woo_attribute
 				);
 
 				Woo_Products_Slider_Pro_Admin::include_template(
-					'recently-viewed',
+					'shortcode-column-without-filters',
 					array(
-						'id'                           => 'recently_viewed_products',
-						'title'                        => __( 'Recently Viewed Products Slider Shortcode', 'woo-products-slider-pro' ),
-						'shortcode'                    => 'woopspro_recently_viewed_products',
-						'woo_stock_status_options'     => $woo_stock_status_options,
-						'woo_product_category_options' => $woo_product_category_options,
-						'woo_product_tags_options'     => $woo_product_tags_options,
-						'woo_attributes_options'       => $woo_attributes_options,
+						'id'        => 'recently_viewed_products',
+						'title'     => __( 'Recently Viewed Products Slider Shortcode', 'woo-products-slider-pro' ),
+						'shortcode' => 'woopspro_recently_viewed_products',
 					)
 				);
+
+				/**
+				 * Fires after the core shortcode generator columns are displayed
+				 * in the admin area, allowing external plugins or modules to
+				 * add their own shortcode generator panels or content.
+				 *
+				 * @since 2.0.1
+				 */
+				do_action( 'woopspro_shortcode_generator_content' );
 				?>
 			</div><!-- post-body-content -->
 		</div><!-- #post-body .metabox-holder .columns-2 -->
