@@ -3,7 +3,7 @@
 [![Plugin Banner](https://ps.w.org/woo-products-slider-pro/assets/banner-1544x500.png)](https://wordpress.org/plugins/woo-products-slider-pro/)
 
 **Tags:** product carousel, responsive product slider, slick slider, advanced slider, woo product carousel \
-**Tested up to:** 6.9 \
+**Tested up to:** 7.0 \
 **Requires PHP:** 8.0
 
 Display Woocommerce Products in a Carousel / Slider. Show Top Rated Products, Best Selling Products, ON Sale Products And Featured Products With Category Filter.
@@ -141,6 +141,9 @@ slider_cls="products" (This parameter target the wooCommerce default class for p
 ![WooCommerce Most Recent Products in carousel view](https://ps.w.org/woo-products-slider-pro/assets/screenshot-7.png)
 
 ## Changelog
+
+### 2.0.2
+* Compatibility checkup for latest wp version 7.0
 
 ### 2.0.1
 * Checked for latest wp version 6.9

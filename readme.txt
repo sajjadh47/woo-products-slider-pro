@@ -2,9 +2,9 @@
 Tags: product carousel, responsive product slider, slick slider, advanced slider, woo product carousel
 Contributors: sajjad67
 Author: Sajjad Hossain Sagor
-Tested up to: 6.9
+Tested up to: 7.0
 Requires at least: 5.6
-Stable tag: 2.0.1
+Stable tag: 2.0.2
 Requires PHP: 8.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -145,6 +145,8 @@ slider_cls="products" (This parameter target the WooCommerce default class for p
 7. WooCommerce Most Recent Products in carousel view
 
 == Changelog ==
+= 2.0.2 =
+* Compatibility checkup for latest wp version 7.0
 = 2.0.1 =
 * Checked for latest wp version 6.9
 = 2.0.0 =
@@ -179,3 +181,6 @@ slider_cls="products" (This parameter target the WooCommerce default class for p
 * Minor Update.. tested for latest wp compatibility..
 = 1.0 =
 * Initial release.
+
+== Upgrade Notice ==
+Always try to keep your plugin update so that you can get the improved and additional features added to this plugin up to date.
