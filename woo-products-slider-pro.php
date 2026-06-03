@@ -13,7 +13,7 @@
  * Plugin Name:       Free WooCommerce Products Slider/Carousel Pro
  * Plugin URI:        https://wordpress.org/plugins/woo-products-slider-pro/
  * Description:       Display WooCommerce Products in a Carousel. Show Top Rated, Best Selling, ON Sale, Featured, Recently Viewed Products With Category Filter.
- * Version:           2.0.2
+ * Version:           2.0.3
  * Requires at least: 5.6
  * Requires PHP:      8.0
  * Author:            Sajjad Hossain Sagor
@@ -33,7 +33,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * Currently plugin version.
  */
-define( 'WOO_PRODUCTS_SLIDER_PRO_PLUGIN_VERSION', '2.0.2' );
+define( 'WOO_PRODUCTS_SLIDER_PRO_PLUGIN_VERSION', '2.0.3' );
 
 /**
  * Define Plugin Folders Path
@@ -43,6 +43,8 @@ define( 'WOO_PRODUCTS_SLIDER_PRO_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );
 define( 'WOO_PRODUCTS_SLIDER_PRO_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 
 define( 'WOO_PRODUCTS_SLIDER_PRO_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );
+
+define( 'WOO_PRODUCTS_SLIDER_PRO_PLUGIN_FILE', __FILE__ );
 
 // Plugin cookie name.
 define( 'WOO_PRODUCTS_SLIDER_PRO_PLUGIN_COOKIE_NAME', 'woopspro_recently_viewed_products' );
